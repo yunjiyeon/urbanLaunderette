@@ -1,0 +1,169 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.7;
+  position: relative;
+}
+
+footer a{
+  color:#ffff;
+  font-size: 13px;
+  font-weight: 900;
+}
+footer .inner {
+  height: 450px;
+  align-items: flex-end;
+  position: relative;
+}
+footer .inner h1 {
+  
+}
+footer .inner .left {
+  
+  width: 100%;
+}
+footer .inner .left .tel {
+  font-size: 15px;
+}
+footer .inner .left .tel p.phone {
+  
+}
+footer .inner .left .tel p.phone strong {
+  display: block;
+  font-size: 40px;
+  line-height: 1;
+  margin: 12px 0 26px;
+}
+
+footer .inner .left .tel p.phone strong a{
+  
+  font-size: 35px;
+}
+
+footer .inner .left .tel p:not(.phone) {
+  
+  font-weight: 900;
+}
+
+footer .inner .left .tel p:not(.phone) a{
+  
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+footer .inner .left address {
+  color: #888888;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+footer .inner .left address span{
+  display: none;
+}
+  
+footer .inner .left ul.bnb {
+  padding-top: 43px;
+}
+footer .inner .left ul.bnb li {
+  
+}
+
+
+footer .inner .left ul.bnb li a {
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+footer .inner .left ul.bnb li:not(:first-child) a{
+  color: #999;
+}
+
+footer .inner .left ul.bnb li:not(:first-child) a:hover{
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .inner .right {
+  right: 0px;
+  
+}
+footer .inner .right ul.sns {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+
+}
+footer .inner .right ul.sns li {
+ 
+  
+}
+
+footer .inner .right ul.sns li a { 
+  font-size: 0;
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  background-size: contain;
+}
+
+
+footer .inner .right ul.sns li:nth-child(1) a{
+  background-image: url(../img/facebook1.png);
+}
+
+footer .inner .right ul.sns li:nth-child(2) a{
+  background-image: url(../img/insta1.png);
+}
+
+footer .inner .right ul.sns li:nth-child(3) a{
+  background-image: url(../img/blog1.png);
+}
+
+footer .inner .right ul.sns li a:hover{
+  filter: brightness(100);
+}
+
+
+footer .inner .right > a.email {
+  color: #999;
+}
+
+footer .inner .right a.email::before{
+ content:"";
+  width: 100%;
+  position: absolute;
+  border-top: 1px solid #ccc;
+  left: 0;
+ transform: translateY(-40px);
+}
+footer a.top{
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  top: -25px;
+  left: calc(50% - 25px);
+  padding:0;
+  transform : rotate(-90deg);
+  transition: all 0.5s;
+}
+
+footer a.top:hover{
+  background-color: #ccc;
+}
+
+footer a.top::before{
+  right:calc(50% - 15px);
+  background-color: #fff;
+}
+
+footer a.top::after{
+  right: 10px;
+  border-color: #fff;
+}

@@ -1,0 +1,24 @@
+html, body{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  cursor: url(../img/pointer.png) 0 0,auto;
+}
+
+body a, body select{
+  cursor: url(../img/pointer2.png) 0 0,auto;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 100%; /*기본 크기로 16px*/
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul{
+  list-style: none;
+  
+}
+img{
+  max-width: 100%;
+}
